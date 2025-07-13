@@ -1,4 +1,4 @@
-<!-- <div align="center">
+<div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Cesar%20Ruiz&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%E2%80%A2%20AI%20Explorer&descAlignY=55&descSize=18" width="100%"/>
 </div>
 
@@ -6,7 +6,7 @@
   <a href="https://cr8297408.github.io/cr8297408/" target="_blank">
     <img src="https://img.shields.io/badge/🎨%20Ver%20Versión%20Completa%20con%20Diseño%20Original-667eea?style=for-the-badge&logoColor=white" alt="Ver versión completa"/>
   </a>
-</div> -->
+</div>
 
 <div align="center">
 
