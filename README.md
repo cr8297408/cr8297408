@@ -25,12 +25,12 @@ la arquitectura limpia y la inteligencia artificial aplicada al desarrollo moder
 
 <br/>
 
-<div align="center">
+<!-- <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=cr8297408&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&ring_color=58A6FF"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=cr8297408&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=C9D1D9"/>
 </div>
 
-<br/>
+<br/> -->
 
 ## 🚀 Tech Stack
 
