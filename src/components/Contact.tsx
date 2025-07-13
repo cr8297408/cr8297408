@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
                   className="flex items-center space-x-4 p-4 glassmorphism-light rounded-2xl hover:bg-white/20 transition-all duration-300 group"
                 >
                   <div className="w-12 h-12 bg-gradient-to-r from-red-500 to-red-600 rounded-xl flex items-center justify-center">
-                    <span className="text-2xl">📧</span>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Gmail" className="w-7 h-7" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-white group-hover:text-gradient transition-colors duration-300">
@@ -71,7 +71,7 @@ const Contact: React.FC = () => {
                   className="flex items-center space-x-4 p-4 glassmorphism-light rounded-2xl hover:bg-white/20 transition-all duration-300 group"
                 >
                   <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl flex items-center justify-center">
-                    <span className="text-2xl">💼</span>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg" alt="LinkedIn" className="w-7 h-7" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-white group-hover:text-gradient transition-colors duration-300">
@@ -88,7 +88,7 @@ const Contact: React.FC = () => {
                   className="flex items-center space-x-4 p-4 glassmorphism-light rounded-2xl hover:bg-white/20 transition-all duration-300 group"
                 >
                   <div className="w-12 h-12 bg-gradient-to-r from-gray-500 to-gray-600 rounded-xl flex items-center justify-center">
-                    <span className="text-2xl">🐙</span>
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" className="w-7 h-7" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-white group-hover:text-gradient transition-colors duration-300">
