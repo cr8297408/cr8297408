@@ -76,7 +76,7 @@ la arquitectura limpia y la inteligencia artificial aplicada al desarrollo moder
 
 <br/>
 
-## 🧠 SmartCoder Labs – Proyecto personal de AI
+<!-- ## 🧠 SmartCoder Labs – Proyecto personal de AI
 
 <div align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&width=600&lines=Agencia+de+desarrollo+automatizada;Impulsada+por+agentes+de+IA;Arquitectura+inteligente+y+escalable" alt="Typing SVG" />
@@ -113,7 +113,7 @@ la arquitectura limpia y la inteligencia artificial aplicada al desarrollo moder
 
 </div>
 
-<br/>
+<br/> -->
 
 ## 📚 Educación Continua
 
