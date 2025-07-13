@@ -12,7 +12,7 @@
       Construyo software elegante, eficiente y escalable. Me apasiona la automatización,<br/>
       la arquitectura limpia y la inteligencia artificial aplicada al desarrollo moderno.
     </p>
-    <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
+    <p align="center">
       <a href="mailto:cr8297408@gmail.com">
         <img src="https://img.shields.io/badge/📧%20Email-cr8297408@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" style="border-radius: 12px; box-shadow: 0 4px 15px 0 rgba(234, 67, 53, 0.3);"/>
       </a>
@@ -22,7 +22,7 @@
       <a href="https://github.com/cr8297408">
         <img src="https://img.shields.io/badge/🐙%20GitHub-cr8297408-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" style="border-radius: 12px; box-shadow: 0 4px 15px 0 rgba(24, 23, 23, 0.3);"/>
       </a>
-    </div>
+    </p>
   </div>
 </div>
 
@@ -201,26 +201,31 @@
 
 ## <div align="center" style="background: linear-gradient(45deg, #667eea 0%, #764ba2 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; font-size: 32px;">🧪 Otros Proyectos Relevantes</div>
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0;">
+<div style="background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%); backdrop-filter: blur(10px); border-radius: 25px; border: 1px solid rgba(255,255,255,0.18); padding: 30px; margin: 20px 0; box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);">
 
-<div style="background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%); backdrop-filter: blur(10px); border-radius: 20px; border: 1px solid rgba(255,255,255,0.18); padding: 25px; box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);">
-  <h3 style="color: #667eea; margin-bottom: 15px;">🏢 Xell</h3>
-  <p style="color: #888; line-height: 1.6;">Plataforma SaaS para PYMEs, migrada a microservicios serverless con AWS Lambda.</p>
-</div>
-
-<div style="background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%); backdrop-filter: blur(10px); border-radius: 20px; border: 1px solid rgba(255,255,255,0.18); padding: 25px; box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);">
-  <h3 style="color: #4ECDC4; margin-bottom: 15px;">💳 88Pay</h3>
-  <p style="color: #888; line-height: 1.6;">Pasarela de pagos de alto riesgo con arquitectura desacoplada y monitoreo inteligente.</p>
-</div>
-
-<div style="background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%); backdrop-filter: blur(10px); border-radius: 20px; border: 1px solid rgba(255,255,255,0.18); padding: 25px; box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);">
-  <h3 style="color: #FF6B6B; margin-bottom: 15px;">🏠 Eliox</h3>
-  <p style="color: #888; line-height: 1.6;">Web scraper de información inmobiliaria con enfoque legal y de seguros.</p>
-</div>
-
-<div style="background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%); backdrop-filter: blur(10px); border-radius: 20px; border: 1px solid rgba(255,255,255,0.18); padding: 25px; box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);">
-  <h3 style="color: #f093fb; margin-bottom: 15px;">🛒 POS Modular</h3>
-  <p style="color: #888; line-height: 1.6;">Software para comercios offline/online con arquitectura híbrida documentada.</p>
+<div align="center">
+  <table style="border-collapse: separate; border-spacing: 15px; margin: 0 auto;">
+    <tr>
+      <td align="center" style="background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%); backdrop-filter: blur(10px); border-radius: 20px; border: 1px solid rgba(255,255,255,0.18); padding: 25px; box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); width: 300px; vertical-align: top;">
+        <h3 style="color: #667eea; margin-bottom: 15px;">🏢 Xell</h3>
+        <p style="color: #888; line-height: 1.6; text-align: center;">Plataforma SaaS para PYMEs, migrada a microservicios serverless con AWS Lambda.</p>
+      </td>
+      <td align="center" style="background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%); backdrop-filter: blur(10px); border-radius: 20px; border: 1px solid rgba(255,255,255,0.18); padding: 25px; box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); width: 300px; vertical-align: top;">
+        <h3 style="color: #4ECDC4; margin-bottom: 15px;">💳 88Pay</h3>
+        <p style="color: #888; line-height: 1.6; text-align: center;">Pasarela de pagos de alto riesgo con arquitectura desacoplada y monitoreo inteligente.</p>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" style="background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%); backdrop-filter: blur(10px); border-radius: 20px; border: 1px solid rgba(255,255,255,0.18); padding: 25px; box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); width: 300px; vertical-align: top;">
+        <h3 style="color: #FF6B6B; margin-bottom: 15px;">🏠 Eliox</h3>
+        <p style="color: #888; line-height: 1.6; text-align: center;">Web scraper de información inmobiliaria con enfoque legal y de seguros.</p>
+      </td>
+      <td align="center" style="background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%); backdrop-filter: blur(10px); border-radius: 20px; border: 1px solid rgba(255,255,255,0.18); padding: 25px; box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); width: 300px; vertical-align: top;">
+        <h3 style="color: #f093fb; margin-bottom: 15px;">🛒 POS Modular</h3>
+        <p style="color: #888; line-height: 1.6; text-align: center;">Software para comercios offline/online con arquitectura híbrida documentada.</p>
+      </td>
+    </tr>
+  </table>
 </div>
 
 </div>
@@ -268,7 +273,7 @@
 
 <div align="center" style="background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%); backdrop-filter: blur(10px); border-radius: 25px; border: 1px solid rgba(255,255,255,0.18); padding: 30px; margin: 20px; box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);">
   
-  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 20px;">
+  <p align="center">
     <a href="mailto:cr8297408@gmail.com">
       <img src="https://img.shields.io/badge/📧%20Email-cr8297408@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" style="border-radius: 12px; box-shadow: 0 4px 15px 0 rgba(234, 67, 53, 0.3); transition: transform 0.3s ease;"/>
     </a>
@@ -278,7 +283,7 @@
     <a href="https://github.com/cr8297408">
       <img src="https://img.shields.io/badge/🐙%20GitHub-cr8297408-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" style="border-radius: 12px; box-shadow: 0 4px 15px 0 rgba(24, 23, 23, 0.3); transition: transform 0.3s ease;"/>
     </a>
-  </div>
+  </p>
   
   <p style="color: #888; font-size: 16px; margin: 0;">
     ¡Siempre abierto a colaborar en proyectos innovadores y desafiantes! 🚀
