@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cesar Ruiz - Full Stack Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .profile-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.18);
+            padding: 30px;
+            margin: 20px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        }
+
+        .profile-title {
+            background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+            font-size: 28px;
+        }
+
+        .profile-description {
+            font-size: 18px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .badges {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .badge {
+            border-radius: 12px;
+            box-shadow: 0 4px 15px 0 rgba(31, 38, 135, 0.3);
+            transition: transform 0.3s ease;
+        }
+
+        .badge:hover {
+            transform: translateY(-2px);
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .stat-card {
+            border-radius: 15px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        }
+
+        .section {
+            background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+            backdrop-filter: blur(10px);
+            border-radius: 25px;
+            border: 1px solid rgba(255,255,255,0.18);
+            padding: 30px;
+            margin: 20px 0;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        }
+
+        .section-title {
+            background: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 32px;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .subsection-title {
+            background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .tech-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .tech-item {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 15px;
+            border: 1px solid rgba(255,255,255,0.18);
+            box-shadow: 0 4px 15px 0 rgba(31, 38, 135, 0.2);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .tech-item:hover {
+            transform: translateY(-5px);
+        }
+
+        .tech-icon {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .feature-card {
+            background: rgba(255,255,255,0.05);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 20px;
+            border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: 0 4px 15px 0 rgba(31, 38, 135, 0.2);
+        }
+
+        .feature-title {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .feature-description {
+            color: #888;
+            font-size: 14px;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .project-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            border: 1px solid rgba(255,255,255,0.18);
+            padding: 25px;
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            text-align: center;
+        }
+
+        .project-title {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 20px;
+        }
+
+        .project-description {
+            color: #888;
+            line-height: 1.6;
+        }
+
+        .quote {
+            font-size: 24px;
+            font-style: italic;
+            color: #667eea;
+            text-align: center;
+            margin: 40px 0;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .stats {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .badges {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Cesar%20Ruiz&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%E2%80%A2%20AI%20Explorer&descAlignY=55&descSize=18" width="100%"/>
+        </div>
+
+        <!-- Profile Card -->
+        <div class="profile-card">
+            <h2 class="profile-title">👋 Hola, soy Cesar Ruiz</h2>
+            <p class="profile-description">
+                <strong>Full Stack Developer • Node.js Enthusiast • Automation & AI Explorer</strong><br/>
+                Construyo software elegante, eficiente y escalable. Me apasiona la automatización,<br/>
+                la arquitectura limpia y la inteligencia artificial aplicada al desarrollo moderno.
+            </p>
+            <div class="badges">
+                <a href="mailto:cr8297408@gmail.com">
+                    <img src="https://img.shields.io/badge/📧%20Email-cr8297408@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" class="badge"/>
+                </a>
+                <a href="https://www.linkedin.com/in/cesarbackend">
+                    <img src="https://img.shields.io/badge/💼%20LinkedIn-Cesar%20Ruiz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" class="badge"/>
+                </a>
+                <a href="https://github.com/cr8297408">
+                    <img src="https://img.shields.io/badge/🐙%20GitHub-cr8297408-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" class="badge"/>
+                </a>
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="stats">
+            <img src="https://github-readme-stats.vercel.app/api?username=cr8297408&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=1F6FEB&text_color=C9D1D9&ring_color=58A6FF" class="stat-card"/>
+            <img src="https://github-readme-streak-stats.herokuapp.com/?user=cr8297408&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=FF6B6B&currStreakLabel=C9D1D9" class="stat-card"/>
+        </div>
+
+        <!-- Tech Stack -->
+        <div class="section">
+            <h2 class="section-title">🚀 Tech Stack</h2>
+            
+            <h3 class="subsection-title">🧠 Backend Development</h3>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=nodejs" class="tech-icon"/><br/>
+                    <strong>Node.js</strong>
+                </div>
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=nestjs" class="tech-icon"/><br/>
+                    <strong>NestJS</strong>
+                </div>
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=express" class="tech-icon"/><br/>
+                    <strong>Express</strong>
+                </div>
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=typescript" class="tech-icon"/><br/>
+                    <strong>TypeScript</strong>
+                </div>
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=graphql" class="tech-icon"/><br/>
+                    <strong>GraphQL</strong>
+                </div>
+            </div>
+
+            <h3 class="subsection-title">🗄️ Bases de Datos</h3>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=mysql" class="tech-icon"/><br/>
+                    <strong>MySQL</strong>
+                </div>
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=mongodb" class="tech-icon"/><br/>
+                    <strong>MongoDB</strong>
+                </div>
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=dynamodb" class="tech-icon"/><br/>
+                    <strong>DynamoDB</strong>
+                </div>
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=redis" class="tech-icon"/><br/>
+                    <strong>Redis</strong>
+                </div>
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=cassandra" class="tech-icon"/><br/>
+                    <strong>Cassandra</strong>
+                </div>
+            </div>
+
+            <h3 class="subsection-title">🛠️ DevOps & Arquitectura</h3>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=docker" class="tech-icon"/><br/>
+                    <strong>Docker</strong>
+                </div>
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=terraform" class="tech-icon"/><br/>
+                    <strong>Terraform</strong>
+                </div>
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=aws" class="tech-icon"/><br/>
+                    <strong>AWS</strong>
+                </div>
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=githubactions" class="tech-icon"/><br/>
+                    <strong>GH Actions</strong>
+                </div>
+            </div>
+
+            <h3 class="subsection-title">🎨 Frontend Development</h3>
+            <div class="tech-grid">
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=react" class="tech-icon"/><br/>
+                    <strong>React</strong>
+                </div>
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=nextjs" class="tech-icon"/><br/>
+                    <strong>Next.js</strong>
+                </div>
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=remix" class="tech-icon"/><br/>
+                    <strong>Remix</strong>
+                </div>
+                <div class="tech-item">
+                    <img src="https://skillicons.dev/icons?i=tailwind" class="tech-icon"/><br/>
+                    <strong>Tailwind</strong>
+                </div>
+            </div>
+        </div>
+
+        <!-- SmartCoder Labs -->
+        <div class="section">
+            <h2 class="section-title">🧠 SmartCoder Labs – Agencia Automatizada por IA</h2>
+            
+            <div style="text-align: center; margin: 20px 0;">
+                <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=667EEA&center=true&vCenter=true&width=600&lines=Agencia+de+desarrollo+automatizada;Impulsada+por+agentes+de+IA;Arquitectura+inteligente+y+escalable" alt="Typing SVG" />
+            </div>
+
+            <p><strong>SmartCoderLabs</strong> es una agencia de desarrollo de software automatizada, impulsada por agentes de IA que orquestan tareas como análisis, generación de código, testing, despliegue y documentación.</p>
+
+            <h3>✨ Características Principales</h3>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h4 class="feature-title">🎯 Arquitectura basada en agentes</h4>
+                    <p class="feature-description">PM-Agent, TechLead-Agent, Dev-Agent, Test-Agent, Infra-Agent</p>
+                </div>
+                <div class="feature-card">
+                    <h4 class="feature-title">⚙️ Scaffolder inteligente</h4>
+                    <p class="feature-description">Por stack (NestJS, Next.js, Flutter)</p>
+                </div>
+                <div class="feature-card">
+                    <h4 class="feature-title">🔍 Testing automatizado</h4>
+                    <p class="feature-description">Con validación semántica (LLM Validator)</p>
+                </div>
+                <div class="feature-card">
+                    <h4 class="feature-title">🚀 CI/CD serverless</h4>
+                    <p class="feature-description">En Vercel, Fly.io</p>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin: 30px 0;">
+                <a href="https://smart-coder-landing.vercel.app" target="_blank">
+                    <img src="https://img.shields.io/badge/🌐%20Ver%20Proyecto-smart--coder--landing.vercel.app-667eea?style=for-the-badge&logoColor=white" class="badge"/>
+                </a>
+            </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="section">
+            <h2 class="section-title">🧪 Otros Proyectos Relevantes</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3 class="project-title">🏢 Xell</h3>
+                    <p class="project-description">Plataforma SaaS para PYMEs, migrada a microservicios serverless con AWS Lambda.</p>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">💳 88Pay</h3>
+                    <p class="project-description">Pasarela de pagos de alto riesgo con arquitectura desacoplada y monitoreo inteligente.</p>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">🏠 Eliox</h3>
+                    <p class="project-description">Web scraper de información inmobiliaria con enfoque legal y de seguros.</p>
+                </div>
+                <div class="project-card">
+                    <h3 class="project-title">🛒 POS Modular</h3>
+                    <p class="project-description">Software para comercios offline/online con arquitectura híbrida documentada.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <h2 class="section-title">📚 Educación Continua</h2>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h4 class="feature-title">🎓 Ingeniería de Sistemas</h4>
+                    <p class="feature-description">UNAD (en curso)</p>
+                </div>
+                <div class="feature-card">
+                    <h4 class="feature-title">🧠 Backend Web</h4>
+                    <p class="feature-description">Acámica + ProTalento</p>
+                </div>
+                <div class="feature-card">
+                    <h4 class="feature-title">📘 Aprendizaje Continuo</h4>
+                    <p class="feature-description">Platzi (IA, arquitectura, DevOps)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Philosophy -->
+        <div class="section">
+            <h2 class="section-title">✨ Filosofía</h2>
+            <div class="quote">
+                "Elegancia + Automatización + Código limpio = Ingeniería que escala."
+            </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="section">
+            <h2 class="section-title">📫 Contacto</h2>
+            
+            <div class="badges">
+                <a href="mailto:cr8297408@gmail.com">
+                    <img src="https://img.shields.io/badge/📧%20Email-cr8297408@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335" class="badge"/>
+                </a>
+                <a href="https://www.linkedin.com/in/cesarbackend">
+                    <img src="https://img.shields.io/badge/🔗%20LinkedIn-Cesar%20Ruiz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" class="badge"/>
+                </a>
+                <a href="https://github.com/cr8297408">
+                    <img src="https://img.shields.io/badge/🐙%20GitHub-cr8297408-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717" class="badge"/>
+                </a>
+            </div>
+            
+            <p style="text-align: center; color: #888; font-size: 16px; margin: 20px 0;">
+                ¡Siempre abierto a colaborar en proyectos innovadores y desafiantes! 🚀
+            </p>
+        </div>
+
+        <!-- Footer -->
+        <div style="text-align: center; margin: 30px 0;">
+            <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=100&section=footer" width="100%"/>
+        </div>
+
+        <div style="text-align: center;">
+            <img src="https://komarev.com/ghpvc/?username=cr8297408&label=Profile%20views&color=667eea&style=for-the-badge" alt="Profile views"/>
+        </div>
+    </div>
+</body>
+</html> 
