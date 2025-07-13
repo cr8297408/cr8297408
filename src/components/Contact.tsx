@@ -34,7 +34,7 @@ const Contact: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 lg:grid-cols-1 gap-12">
           {/* Contact Info */}
           <div className="space-y-8">
             <div className="glassmorphism-dark p-8 rounded-3xl">
@@ -48,7 +48,7 @@ const Contact: React.FC = () => {
               </p>
 
               {/* Contact Links */}
-              <div className="space-y-4">
+              <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
                 <a
                   href="mailto:cr8297408@gmail.com"
                   className="flex items-center space-x-4 p-4 glassmorphism-light rounded-2xl hover:bg-white/20 transition-all duration-300 group"
@@ -112,7 +112,7 @@ const Contact: React.FC = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="glassmorphism-dark p-8 rounded-3xl">
+          {/* <div className="glassmorphism-dark p-8 rounded-3xl">
             <h3 className="text-2xl font-bold text-gradient mb-6">
               📝 Envíame un mensaje
             </h3>
@@ -172,7 +172,7 @@ const Contact: React.FC = () => {
                 Enviar Mensaje
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
 
         {/* Footer */}
