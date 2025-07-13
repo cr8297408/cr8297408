@@ -24,13 +24,30 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: astro-portfolio/package-lock.json
+      
+      - name: Install dependencies
+        run: |
+          cd astro-portfolio
+          npm ci
+      
+      - name: Build Astro site
+        run: |
+          cd astro-portfolio
+          npm run build
+      
       - name: Setup Pages
         uses: actions/configure-pages@v4
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'
+          path: 'astro-portfolio/dist'
           
       - name: Deploy to GitHub Pages
         id: deployment

@@ -4,7 +4,7 @@
 
 <div align="center" style="margin: 20px 0;">
   <a href="https://cr8297408.github.io/cr8297408/" target="_blank">
-    <img src="https://img.shields.io/badge/🎨%20Ver%20Versión%20Completa%20con%20Diseño%20Original-667eea?style=for-the-badge&logoColor=white" alt="Ver versión completa"/>
+    <img src="https://img.shields.io/badge/🎨%20Ver%20Versión%20Completa%20con%20Diseño%20Original-667eea?style=for-the-badge&logoColor=white" alt="Ver Portfolio"/>
   </a>
 </div>
 
