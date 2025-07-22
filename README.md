@@ -17,7 +17,7 @@
 Construyo software elegante, eficiente y escalable. Me apasiona la automatización,  
 la arquitectura limpia y la inteligencia artificial aplicada al desarrollo moderno.
 
-[![Email](https://img.shields.io/badge/📧%20Email-cr8297408@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335)](mailto:cr8297408@gmail.com)
+[![Email](https://img.shields.io/badge/%20Email-cr8297408@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335)](mailto:cr8297408@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/💼%20LinkedIn-Cesar%20Ruiz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2)](https://www.linkedin.com/in/cesarbackend)
 [![GitHub](https://img.shields.io/badge/🐙%20GitHub-cr8297408-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717)](https://github.com/cr8297408)
 
