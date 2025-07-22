@@ -12,7 +12,7 @@
 
 ## 👋 Hola, soy Cesar Ruiz
 
-**Full Stack Developer • Node.js Enthusiast • Automation & AI Explorer**
+**Backend Developer • Node.js Enthusiast • Automation & AI Explorer**
 
 Construyo software elegante, eficiente y escalable. Me apasiona la automatización,  
 la arquitectura limpia y la inteligencia artificial aplicada al desarrollo moderno.

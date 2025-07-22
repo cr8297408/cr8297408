@@ -8,7 +8,7 @@ const markdown = `
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Cesar%20Ruiz&fontSize=50&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Full%20Stack%20Developer%20%E2%80%A2%20AI%20Explorer&descAlignY=55&descSize=18)
 
 ## 👋 Hola, soy Cesar Ruiz
-**Full Stack Developer • Node.js Enthusiast • Automation & AI Explorer**  
+**Backend Developer • Node.js Enthusiast • Automation & AI Explorer**  
 Construyo software elegante, eficiente y escalable. Me apasiona la automatización, la arquitectura limpia y la inteligencia artificial aplicada al desarrollo moderno.
 
 [![Email](https://img.shields.io/badge/📧%20Email-cr8297408@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335)](mailto:cr8297408@gmail.com)

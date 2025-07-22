@@ -32,7 +32,7 @@ const Header: React.FC<HeaderProps> = ({ className = '' }) => {
             </div>
             <div className="hidden sm:block">
               <h1 className="text-lg font-semibold text-white">Cesar Ruiz</h1>
-              <p className="text-xs text-gray-400">Full Stack Developer</p>
+              <p className="text-xs text-gray-400">Backend Developer</p>
             </div>
           </div>
 

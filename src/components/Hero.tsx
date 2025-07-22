@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
               }`}
             style={{ transitionDelay: '200ms' }}
           >
-            <strong className="text-white">Full Stack Developer • Node.js Enthusiast • Automation & AI Explorer</strong><br />
+            <strong className="text-white">Backend Developer • Node.js Enthusiast • Automation & AI Explorer</strong><br />
             Construyo software elegante, eficiente y escalable. Me apasiona la automatización,<br />
             la arquitectura limpia y la inteligencia artificial aplicada al desarrollo moderno.
           </p>
