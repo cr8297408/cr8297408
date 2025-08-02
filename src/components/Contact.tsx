@@ -181,7 +181,7 @@ const Contact: React.FC = () => {
             <div className="flex justify-center space-x-6 mb-6">
               <a
                 href="mailto:cr8297408@gmail.com"
-                className="glassmorphism-light p-3 rounded-full hover:bg-white/20 transition-all duration-300 transform hover:scale-110"
+                className="p-3 rounded-full hover:bg-white/20 transition-all duration-300 transform hover:scale-110"
               >
                 <img
                   src="https://img.shields.io/badge/📧%20Email-cr8297408@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=EA4335"
@@ -193,7 +193,7 @@ const Contact: React.FC = () => {
                 href="https://www.linkedin.com/in/cesarbackend"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="glassmorphism-light p-3 rounded-full hover:bg-white/20 transition-all duration-300 transform hover:scale-110"
+                className="p-3 rounded-full hover:bg-white/20 transition-all duration-300 transform hover:scale-110"
               >
                 <img
                   src="https://img.shields.io/badge/🔗%20LinkedIn-Cesar%20Ruiz-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2"
@@ -205,7 +205,7 @@ const Contact: React.FC = () => {
                 href="https://github.com/cr8297408"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="glassmorphism-light p-3 rounded-full hover:bg-white/20 transition-all duration-300 transform hover:scale-110"
+                className="p-3 rounded-full hover:bg-white/20 transition-all duration-300 transform hover:scale-110"
               >
                 <img
                   src="https://img.shields.io/badge/🐙%20GitHub-cr8297408-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=181717"
