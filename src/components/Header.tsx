@@ -41,7 +41,8 @@ const Header: React.FC<HeaderProps> = ({ className = '' }) => {
             {[
               { href: '#about', label: 'Sobre mí' },
               { href: '#skills', label: 'Habilidades' },
-              { href: '#projects', label: 'Proyectos' },
+              // { href: '#projects', label: 'Proyectos' },
+              { href: '#experience', label: 'Experiencia' },
               { href: '#contact', label: 'Contacto' }
             ].map((item) => (
               <a
