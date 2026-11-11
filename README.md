@@ -12,6 +12,8 @@
 
 Designing production-grade backend systems with strong emphasis on clean architecture, microservices, async communication and cloud-native infrastructure.
 
+[![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/cr8297408/badge.svg)](https://hub.xerj.org/contributors/cr8297408)
+
 </div>
 
 ---
